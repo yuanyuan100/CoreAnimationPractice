@@ -15,6 +15,12 @@
 		643502CE1F04F76000E36466 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643502CD1F04F76000E36466 /* HomeTableViewController.m */; };
 		643502D21F050D2800E36466 /* TouchLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643502D01F050D2800E36466 /* TouchLayerViewController.m */; };
 		643502D31F050D2800E36466 /* TouchLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643502D11F050D2800E36466 /* TouchLayerViewController.xib */; };
+		646998891F0CD05D00FAC2C9 /* CGPathRefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646998871F0CD05D00FAC2C9 /* CGPathRefViewController.m */; };
+		6469988A1F0CD05D00FAC2C9 /* CGPathRefViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646998881F0CD05D00FAC2C9 /* CGPathRefViewController.xib */; };
+		6469988E1F0CD48900FAC2C9 /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469988C1F0CD48900FAC2C9 /* MaskViewController.m */; };
+		6469988F1F0CD48900FAC2C9 /* MaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6469988D1F0CD48900FAC2C9 /* MaskViewController.xib */; };
+		646998931F0CE08900FAC2C9 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646998911F0CE08900FAC2C9 /* FilterViewController.m */; };
+		646998941F0CE08900FAC2C9 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646998921F0CE08900FAC2C9 /* FilterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,15 @@
 		643502CF1F050D2800E36466 /* TouchLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchLayerViewController.h; sourceTree = "<group>"; };
 		643502D01F050D2800E36466 /* TouchLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchLayerViewController.m; sourceTree = "<group>"; };
 		643502D11F050D2800E36466 /* TouchLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchLayerViewController.xib; sourceTree = "<group>"; };
+		646998861F0CD05D00FAC2C9 /* CGPathRefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPathRefViewController.h; sourceTree = "<group>"; };
+		646998871F0CD05D00FAC2C9 /* CGPathRefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPathRefViewController.m; sourceTree = "<group>"; };
+		646998881F0CD05D00FAC2C9 /* CGPathRefViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGPathRefViewController.xib; sourceTree = "<group>"; };
+		6469988B1F0CD48900FAC2C9 /* MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
+		6469988C1F0CD48900FAC2C9 /* MaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
+		6469988D1F0CD48900FAC2C9 /* MaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskViewController.xib; sourceTree = "<group>"; };
+		646998901F0CE08900FAC2C9 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		646998911F0CE08900FAC2C9 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		646998921F0CE08900FAC2C9 /* FilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +106,15 @@
 				643502CF1F050D2800E36466 /* TouchLayerViewController.h */,
 				643502D01F050D2800E36466 /* TouchLayerViewController.m */,
 				643502D11F050D2800E36466 /* TouchLayerViewController.xib */,
+				646998861F0CD05D00FAC2C9 /* CGPathRefViewController.h */,
+				646998871F0CD05D00FAC2C9 /* CGPathRefViewController.m */,
+				646998881F0CD05D00FAC2C9 /* CGPathRefViewController.xib */,
+				6469988B1F0CD48900FAC2C9 /* MaskViewController.h */,
+				6469988C1F0CD48900FAC2C9 /* MaskViewController.m */,
+				6469988D1F0CD48900FAC2C9 /* MaskViewController.xib */,
+				646998901F0CE08900FAC2C9 /* FilterViewController.h */,
+				646998911F0CE08900FAC2C9 /* FilterViewController.m */,
+				646998921F0CE08900FAC2C9 /* FilterViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -154,9 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646998941F0CE08900FAC2C9 /* FilterViewController.xib in Resources */,
+				6469988F1F0CD48900FAC2C9 /* MaskViewController.xib in Resources */,
 				643502D31F050D2800E36466 /* TouchLayerViewController.xib in Resources */,
 				643502C41F04F70000E36466 /* LaunchScreen.storyboard in Resources */,
 				643502C11F04F70000E36466 /* Assets.xcassets in Resources */,
+				6469988A1F0CD05D00FAC2C9 /* CGPathRefViewController.xib in Resources */,
 				643502BF1F04F70000E36466 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,9 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6469988E1F0CD48900FAC2C9 /* MaskViewController.m in Sources */,
 				643502D21F050D2800E36466 /* TouchLayerViewController.m in Sources */,
 				643502B91F04F70000E36466 /* AppDelegate.m in Sources */,
 				643502CE1F04F76000E36466 /* HomeTableViewController.m in Sources */,
+				646998931F0CE08900FAC2C9 /* FilterViewController.m in Sources */,
+				646998891F0CD05D00FAC2C9 /* CGPathRefViewController.m in Sources */,
 				643502B61F04F70000E36466 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +362,7 @@
 				643502CA1F04F70000E36466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,11 +9,11 @@
 #import "HomeTableViewController.h"
 
 #ifndef CELL_NAME_ARRAY
-#define CELL_NAME_ARRAY @[@"TouchLayer"]
+#define CELL_NAME_ARRAY @[@"TouchLayer", @"CGPathRefViewController", @"MaskViewController", @"FilterViewController"]
 #endif
 
 #ifndef CLASS_NAME_ARRAY
-#define CLASS_NAME_ARRAY @[@"TouchLayerViewController"]
+#define CLASS_NAME_ARRAY @[@"TouchLayerViewController", @"CGPathRefViewController", @"MaskViewController", @"FilterViewController"]
 #endif
 
 @interface HomeTableViewController ()
@@ -24,8 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGPathRef
-
 }
 
 - (void)didReceiveMemoryWarning {
